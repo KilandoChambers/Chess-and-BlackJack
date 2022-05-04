@@ -299,22 +299,3 @@ class Evaluations():
 
             return parent_node.minimaxbest, minbetter
 
-# chessgame = Evaluations()
-# chessgame.board.push_uci("g1f3")
-# chessgame.board.push_uci("d7d5")
-# chessgame.board.push_uci("b1c3")
-# chessgame.board.push_uci("g8f6")
-# chessgame.board.push_uci("h1g1")
-# chessgame.board.push_uci("b8c6")
-# chessgame.board.push_uci("a1b1")
-# chessgame.board.push_uci("e7e5")
-# chessgame.board.push_uci("e2e3")
-# chessgame.board.push_uci("e5e4")
-# chessgame.board.push_uci("f3h4")
-# chessgame.board.push_uci("f6g4")
-# chessgame.board.push_uci("d2d3")
-# chessgame.board.push_uci("d8h4")
-
-# x = chessgame.minimax(parent_node = 0, minidepth = 3, alpha = np.NINF, beta = np.Inf)[0]
-# print(x)
-# print(chessgame.board)
