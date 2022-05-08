@@ -8,6 +8,14 @@ player moves twice), the computer initiates a black jack game. If the player win
 computer chooses a random move, implementing both randomness and luck into the chess game. 
 If the computer wins, it will continue to play optimally. 
 
+Mobility Function: Most of the components I used to analyze the static position is my
+computational implementation of chess theory that has already existed. My mobility 
+function is slightly different. The mobility function is used to analyze how much can
+a player move on their next turn. Current mobility functions typically analyze how pieces
+can move and how many possible moves each piece can make. My mobility function does this
+but also takes into account the positional value (see the square tables initialized in the
+Evaluations Class) of each next move!
+
 Other subcomponents that I would like to edit into my code later:
 1. Allow the player to choose to play as white and black. Meaning the minimax algorithm 
    would have to be altered to incorporate the computer as the *minimizer*.
